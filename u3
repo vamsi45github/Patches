@@ -1,0 +1,9 @@
+yum update kernel-updates
+yum update all
+yum clean all
+yum repolist
+
+rpm -qa vsftpd*
+rpm -ivh vsftpd*
+yum install vsftpd* -y
+

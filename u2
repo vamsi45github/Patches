@@ -1,0 +1,4 @@
+rpm -qa vsftpd*
+rpm -ivh vsftpd*
+yum install vsftpd* -y
+
