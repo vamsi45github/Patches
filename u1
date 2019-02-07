@@ -2,4 +2,4 @@ yum update kernel-updates
 yum update all
 yum clean all
 yum repolist
-
+yum patch
